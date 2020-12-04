@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_v1"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/btnback"
+        android:background="@drawable/exit_btn"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        />
+
+    <Button
+        android:id="@+id/btnOlnine"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/oval"
+        android:text="Online" />
+
+    <Button
+        android:id="@+id/btnCham"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/oval"
+        android:text="championship"/>
+
+
+</LinearLayout>

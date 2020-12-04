@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_v1"
+    tools:context="com.example.demo.Home">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logo_v1" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center"
+        android:orientation="vertical"
+        android:paddingTop="0dp">
+
+
+
+        <Button
+            android:id="@+id/btn_player"
+            android:layout_width="200dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/oval"
+            android:text="Tự Chơi"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btn_thoat"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/exit_btn"
+            android:text="Thoát"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+</LinearLayout>
