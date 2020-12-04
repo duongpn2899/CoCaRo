@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "766506889477",
+    "project_id": "realtimedatabasefirebase-be190",
+    "storage_bucket": "realtimedatabasefirebase-be190.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766506889477:android:835379192389c29bad076c",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766506889477-askuko8k2pu20ngm7mq2k2ks2g1oh68h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtC76-Qw9gFSVzutG8M--jnWib5j_Ge2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766506889477-askuko8k2pu20ngm7mq2k2ks2g1oh68h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
